@@ -1,0 +1,103 @@
+header {
+    height: 100px;
+    background: white;
+    position: relative;
+}
+
+header>img {
+    width: 221px;
+    padding: 6px 6px 6px 20px;
+
+}
+
+header>ul {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    list-style: none;
+    font-size: 20px;
+}
+
+header>ul>li {
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    color: #2f2080;
+}
+
+body{
+    margin: 0px;
+}
+
+main {
+    position: relative;
+}
+
+main>nav {
+    width: 200px;
+    background: blue;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+}
+
+main>nav>ul {
+    list-style: none;
+}
+
+main>nav>ul>li {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+main>section {
+    margin-left: 215px;
+    padding: 6px;
+}
+
+main>section>section {
+    height: 250px;
+    position: relative;
+}
+
+main>section>section>nav {
+    border: 2.5px solid #ffc300;
+    height: 100%;
+    width: calc((100%/3)*1);
+    position: absolute;
+}
+
+main>section>section>nav:nth-child(1) {
+    left: 0;
+    background: url("gif.gif");
+    background-size: 350px;
+    background-position: center;
+}
+
+main>section>section>nav:nth-child(2) {
+    left: calc((100%/3)*1);
+    background: url("gif.gif");
+    background-size: 350px;
+    background-position: center;
+}
+
+main>section>section>nav:nth-child(3) {
+    left: calc((100%/3)*2);
+    background: url("gif.gif");
+    background-size: 350px;
+    background-position: center;
+}
+
+body>footer {
+    height: 50px;
+    background: rgb(255, 50, 11);
+    position: relative;
+    top: 0px;
+}
+
+footer>h2 {
+    text-align: center;
+    padding: 10px;
+}
