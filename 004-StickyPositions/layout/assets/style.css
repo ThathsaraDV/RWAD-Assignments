@@ -1,0 +1,65 @@
+div {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+aside {
+    position: sticky;
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 5px;
+    top: 0;
+}
+
+body>div>aside>p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+body>div>p {
+    width: fit-content;
+    margin: auto;
+    top: 50%;
+    left:45%;
+    position: absolute;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+body>:nth-child(1){
+    background-color: violet;
+}
+
+body>:nth-child(1)>aside{
+    background-color: chartreuse;
+}
+
+body>:nth-child(2){
+    background-color: #3cc8ff;
+}
+
+body>:nth-child(2)>aside{
+    background-color: crimson;
+}
+
+body>:nth-child(3){
+    background-color: gold;
+}
+
+body>:nth-child(3)>aside{
+    background-color: blueviolet;
+}
+
+body>:nth-child(4){
+    background-color: lightseagreen;
+}
+
+body>:nth-child(4)>aside{
+    background-color: olive;
+}
