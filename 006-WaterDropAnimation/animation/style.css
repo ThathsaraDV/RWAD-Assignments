@@ -1,0 +1,25 @@
+div {
+    position: absolute;
+    border: 5px solid #3281ff;
+    width: 1px;
+    height: 1px;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 100%;
+    animation: anima 2s infinite;
+}
+
+@keyframes anima {
+    from {
+        width: 1px;
+        height: 1px;
+    }
+    to {
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+    }
+}
